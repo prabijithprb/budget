@@ -1,0 +1,39 @@
+<div class="table-dash">
+    <h2>Recently Active Users</h2>
+    <table class="table-main">
+        <tr class="table-header" >
+            <th>USER ID/NAME</th>
+            <th>PHONE NUMBER</th>
+            <th>TRANSACTION CATOGORY</th>
+            <th>TRANSACTION AMOUNT</th>
+            <th>ACCOUNT TYPE</th>
+            <th>BALANCE AMOUNT</th>
+            <th></th>
+        </tr>
+        <tr class="single-table" *ngFor="let data of tableDatas">
+            <td class="table-name">
+                <h6>{{data.name}}</h6>
+                <p>ID {{data.id}}</p>
+            </td>
+            <td class="table-phone">
+                <h6>{{data.phone}}</h6>
+            </td>
+            <td class="table-transaction">
+                <h6>{{data.transaction}}</h6>
+                <p>{{data.transactionName}}</p>
+            </td>
+            <td class="table-amount">
+                <h6>${{data.amount}}</h6>
+            </td>
+            <td class="table-type">
+                <h6>{{data.accountType}}</h6>
+            </td>
+            <td class="table-balance">
+                <h6>{{data.balance}}</h6>
+            </td>
+            <td class="button-active">
+                <a href="">View</a>
+            </td>
+        </tr>
+    </table>
+</div>

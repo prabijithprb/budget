@@ -1,0 +1,7 @@
+<div class="dash-cards">
+    <div *ngFor="let cardData of  cardDatas" class="dash-card">
+        <p>{{cardData.head}}</p>
+        <h2>{{cardData.value}}</h2>
+        <p class="since"><span>{{cardData.difference}}%</span>Since last month</p>
+    </div>
+</div>

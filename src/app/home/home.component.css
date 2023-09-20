@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.left {
+    padding: 48px 64px;
+    background-image: url("/assets/figma.jpeg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+}
+
+.brand {
+    color: #000;
+    font-family: Archivo;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.login-header h2 {
+    color: #202020;
+    font-family: Archivo;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 12px;
+}
+
+.login-header p {
+    color: #707070;
+    font-family: Archivo;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 48px;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.right-box {
+    width: 416px;
+    height: 399px;
+}
+
+.email-input {
+    border-radius: 10px 10px 0px 0px;
+}
+
+
+.password-input {
+    border-radius: 0px 0px 10px 10px;
+}
+
+.form-floating {
+    color: #000;
+    font-family: Archivo;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    outline: none;
+}
+
+.form-control {
+    border: 1px solid #B0B0B0;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border: 1px solid #005EFF;
+}
+
+.form-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 43px;
+}
+.keep-logged-div{
+    display: flex;
+}
+
+.keep-logged-div label {
+    color: #000;
+    margin-left: 10px;
+    font-family: Archivo;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.form-footer a {
+    text-decoration: none;
+    color: #000;
+    font-family: Archivo;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.login-btn {
+    color: #FFF;
+    font-family: Archivo;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    height: 65px;
+}
+
+.register-div {
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.register {
+    margin: 0 auto;
+    text-decoration: none;
+    color: #000;
+    font-family: Archivo;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.right-header {
+    display: flex;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    align-items: center;
+}
+
+.right-header-anchor {
+    display: flex;
+    align-items: center;
+    color: #000;
+    font-family: Archivo;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 8px;
+}
+
+.right-header-anchor a {
+    text-decoration: none;
+    font-weight: 700;
+    color: black;
+}
+
+.language {
+    border-radius: 5px;
+    border: 1px solid #000;
+    background-color: white;
+    padding: 4px 12px;
+}
+
+
+.language{
+    color: #000;
+    font-family: Archivo;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+    display: inline-flex;
+    padding: 4px 12px;
+    align-items: center;
+    gap: 6px;
+    /* 19.2px */
+    letter-spacing: 0.12px;
+}
+
+.language select img {
+    width: 16px;
+}
+
+p {
+    margin: 0;
+}
+

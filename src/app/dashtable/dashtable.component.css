@@ -1,0 +1,141 @@
+.table-main {
+    width: 100%;
+    border-spacing: 16px;
+}
+
+
+.table-dash h2 {
+    color: #202020;
+    font-family: Archivo;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+.table-header {
+    border-radius: 5px;
+    background: #EFF1F3;
+}
+
+.table-header th {
+    color: #707070;
+    font-family: Archivo;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-block: 12px;
+}
+.table-header th:first-child{
+    padding-left: 16px;
+}
+
+.single-table td{
+    padding-block: 16px;
+}
+
+.single-table td:first-child{
+    padding-left: 16px;
+}
+
+
+.single-table:hover {
+    background: #EDF6FE;;
+}
+
+.button-active {
+    opacity: 0;
+}
+
+.single-table:hover>.button-active {
+    opacity: 1;
+}
+
+.single-table {
+    color: #202020;
+    font-family: Archivo;
+}
+
+.table-name h6 {
+    color: #202020;
+    font-family: Archivo;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.table-name p {
+    color: #707070;
+    font-family: Archivo;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.table-phone h6 {
+    color: #707070;
+    font-family: Archivo;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.table-transaction h6 {
+    color: #202020;
+    font-family: Archivo;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.table-transaction p {
+    color: #707070;
+    font-family: Archivo;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.table-amount h6 {
+    color: #202020;
+    font-family: Archivo;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.table-type h6 {
+    color: #202020;
+    font-family: Archivo;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.table-balance h6 {
+    color: #202020;
+    font-family: Archivo;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.button-active a {
+    color: #202020;
+    font-family: Archivo;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration-line: underline;
+}
